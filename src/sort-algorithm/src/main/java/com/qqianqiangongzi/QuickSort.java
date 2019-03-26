@@ -26,7 +26,7 @@ public class QuickSort {
 	 * @param r
 	 *            数组的右边界(例如，排序截至到数组末尾，则r=a.length-1)
 	 */
-	private static void quickSort(int[] a, int l, int r) {
+	public static void quickSort(int[] a, int l, int r) {
 		if (l > r) {
 			return;
 		}
